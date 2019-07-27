@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -36,7 +36,7 @@
                             <constraints>
                                 <constraint firstAttribute="width" constant="150" id="cwJ-gN-t2T"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="HelveticaNeueLTArabic-Bold" family="Helvetica Neue LT Arabic" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <color key="textColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -71,7 +71,7 @@
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WyU-Il-Qo2" customClass="UIViewX" customModule="Ufelix" customModuleProvider="target">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WyU-Il-Qo2" customClass="UIViewX" customModule="nib" customModuleProvider="target">
                                     <rect key="frame" x="15" y="47.5" width="384" height="520"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="NBj-9l-wNw">
@@ -190,7 +190,7 @@
                                                                 </stackView>
                                                                 <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2hR-F9-4Jd" userLabel="Sep1">
                                                                     <rect key="frame" x="0.0" y="44" width="364" height="1"/>
-                                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="1" id="cXH-sy-dEK"/>
                                                                     </constraints>
@@ -237,9 +237,9 @@
                                                                         <constraint firstAttribute="height" constant="1" id="ZKF-1I-13a"/>
                                                                     </constraints>
                                                                 </view>
-                                                                <label opaque="NO" userInteractionEnabled="NO" tag="22" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 جنية" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bRS-xj-3TA" customClass="UILabelX" customModule="Ufelix" customModuleProvider="target">
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="22" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 جنية" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bRS-xj-3TA" customClass="UILabelX" customModule="nib" customModuleProvider="target">
                                                                     <rect key="frame" x="105" y="7.5" width="60" height="30"/>
-                                                                    <color key="backgroundColor" red="0.99853831530000003" green="0.34986266490000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <color key="backgroundColor" red="1" green="0.3803921569" blue="0.023529411760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="GgS-eq-gKu"/>
                                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="dc8-iZ-knV"/>
@@ -526,7 +526,7 @@
                                             </subviews>
                                         </stackView>
                                     </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="NBj-9l-wNw" firstAttribute="top" secondItem="WyU-Il-Qo2" secondAttribute="top" constant="10" id="7Mn-qn-gHL"/>
                                         <constraint firstAttribute="trailing" secondItem="NBj-9l-wNw" secondAttribute="trailing" constant="10" id="g6e-32-r46"/>
@@ -539,32 +539,13 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aw2-EC-mqL" userLabel="ExpandView">
-                                    <rect key="frame" x="15" y="567.5" width="384" height="40"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ch-tg-vqg">
-                                            <rect key="frame" x="172" y="4" width="40" height="40"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="40" id="fap-Ju-V5P"/>
-                                                <constraint firstAttribute="height" constant="40" id="mzU-1T-HF5"/>
-                                            </constraints>
-                                            <state key="normal" image="backNav"/>
-                                        </button>
-                                    </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="40" id="RAe-Do-LQh"/>
-                                        <constraint firstItem="5Ch-tg-vqg" firstAttribute="centerX" secondItem="aw2-EC-mqL" secondAttribute="centerX" id="iAG-yu-0Um"/>
-                                        <constraint firstItem="5Ch-tg-vqg" firstAttribute="top" secondItem="aw2-EC-mqL" secondAttribute="top" constant="4" id="wgJ-5o-vvC"/>
-                                    </constraints>
-                                </view>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The recipient details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yA9-KS-m9b">
                                     <rect key="frame" x="15" y="627.5" width="135" height="17.5"/>
                                     <fontDescription key="fontDescription" name="HelveticaNeueLTArabic-Bold" family="Helvetica Neue LT Arabic" pointSize="15"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WXZ-B9-z0n" customClass="UIViewX" customModule="Ufelix" customModuleProvider="target">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WXZ-B9-z0n" customClass="UIViewX" customModule="nib" customModuleProvider="target">
                                     <rect key="frame" x="15" y="665" width="384" height="215"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="zQq-HU-fZw">
@@ -751,7 +732,7 @@
                                             </subviews>
                                         </stackView>
                                     </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" red="0.4273419309" green="0.4576257896" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="zQq-HU-fZw" secondAttribute="bottom" constant="10" id="boZ-iB-njm"/>
                                         <constraint firstItem="zQq-HU-fZw" firstAttribute="leading" secondItem="WXZ-B9-z0n" secondAttribute="leading" constant="10" id="f3F-YA-7ru"/>
@@ -764,16 +745,35 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aw2-EC-mqL" userLabel="ExpandView">
+                                    <rect key="frame" x="15" y="567.5" width="384" height="40"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ch-tg-vqg">
+                                            <rect key="frame" x="172" y="4" width="40" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="40" id="fap-Ju-V5P"/>
+                                                <constraint firstAttribute="height" constant="40" id="mzU-1T-HF5"/>
+                                            </constraints>
+                                            <state key="normal" image="backNav"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.95994073150000003" green="0.79738372560000004" blue="0.33334299919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="RAe-Do-LQh"/>
+                                        <constraint firstItem="5Ch-tg-vqg" firstAttribute="centerX" secondItem="aw2-EC-mqL" secondAttribute="centerX" id="iAG-yu-0Um"/>
+                                        <constraint firstItem="5Ch-tg-vqg" firstAttribute="top" secondItem="aw2-EC-mqL" secondAttribute="top" constant="4" id="wgJ-5o-vvC"/>
+                                    </constraints>
+                                </view>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Driver details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVi-Pz-ksf">
                                     <rect key="frame" x="15" y="900" width="87.5" height="17.5"/>
                                     <fontDescription key="fontDescription" name="HelveticaNeueLTArabic-Bold" family="Helvetica Neue LT Arabic" pointSize="15"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D9o-qD-6ZJ" userLabel="CaptianView" customClass="UIViewX" customModule="Ufelix" customModuleProvider="target">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D9o-qD-6ZJ" userLabel="CaptianView" customClass="UIViewX" customModule="nib" customModuleProvider="target">
                                     <rect key="frame" x="15" y="937.5" width="384" height="120"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="3XM-2n-d43" customClass="UIImageViewX" customModule="Ufelix" customModuleProvider="target">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="3XM-2n-d43" customClass="UIImageViewX" customModule="nib" customModuleProvider="target">
                                             <rect key="frame" x="10" y="25" width="70" height="70"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="70" id="8E6-eF-sNE"/>
@@ -825,7 +825,7 @@
                                             <state key="normal" image="callAnswer-1"/>
                                         </button>
                                     </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" red="0.96862745100000003" green="0.74901960779999999" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstItem="rl5-me-ywi" firstAttribute="centerY" secondItem="3XM-2n-d43" secondAttribute="centerY" id="9TP-mi-GGJ"/>
                                         <constraint firstItem="3XM-2n-d43" firstAttribute="leading" secondItem="D9o-qD-6ZJ" secondAttribute="leading" constant="10" id="DfY-mw-sUq"/>
@@ -842,7 +842,7 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PoQ-K1-PE7" userLabel="EmptyCaptianView" customClass="UIViewX" customModule="Ufelix" customModuleProvider="target">
+                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PoQ-K1-PE7" userLabel="EmptyCaptianView" customClass="UIViewX" customModule="nib" customModuleProvider="target">
                                     <rect key="frame" x="15" y="937.5" width="384" height="120"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="22" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="لا يوجد كابتن حتى الآن" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="V3R-rM-y0A">
@@ -871,7 +871,7 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZU-85-qrl" customClass="UIButtonX" customModule="Ufelix" customModuleProvider="target">
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZU-85-qrl" customClass="UIButtonX" customModule="nib" customModuleProvider="target">
                                     <rect key="frame" x="15" y="1077.5" width="384" height="55"/>
                                     <color key="backgroundColor" red="0.85098039219999999" green="0.18823529410000001" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
@@ -920,6 +920,7 @@
                             </constraints>
                         </view>
                     </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="rQg-Fh-S2x" firstAttribute="top" secondItem="81j-Wm-lmc" secondAttribute="top" id="MCf-FZ-hXD"/>
                         <constraint firstAttribute="bottom" secondItem="rQg-Fh-S2x" secondAttribute="bottom" id="j33-oa-HKQ"/>
@@ -941,7 +942,7 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="gzs-UL-oH5"/>
-            <point key="canvasLocation" x="137.68115942028987" y="131.91964285714286"/>
+            <point key="canvasLocation" x="33.600000000000001" y="15.292353823088456"/>
         </view>
     </objects>
     <resources>

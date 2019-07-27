@@ -16,26 +16,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
+        /*
         window = UIWindow(frame: UIScreen.main.bounds)
-        let mainVC = newViewController(nibName: "newViewController", bundle: nil)
+        let mainVC = ViewController(nibName: "ViewController", bundle: nil)
         let nav = UINavigationController(rootViewController: mainVC)
         
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
+        //newViewController
         
         
-        /*
+ */
          
          
-         let mainVC = newViewController(nibName: "newViewController", bundle: nil)
+         let mainVC = ViewController2(nibName: "ViewController2", bundle: nil)
          
          
          window?.rootViewController = mainVC
          
  
  
- */
+ 
         return true
     }
 

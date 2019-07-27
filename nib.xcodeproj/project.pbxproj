@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0455124422EC596B00322583 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455124222EC596B00322583 /* ViewController2.swift */; };
+		0455124522EC596B00322583 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0455124322EC596B00322583 /* ViewController2.xib */; };
 		048A60EB22EB1ADE002E3DD9 /* New2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A60E922EB1ADE002E3DD9 /* New2VC.swift */; };
 		048A60EC22EB1ADE002E3DD9 /* New2VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048A60EA22EB1ADE002E3DD9 /* New2VC.xib */; };
 		04CDAA6822E85FB500A4B656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDAA6722E85FB500A4B656 /* AppDelegate.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0455124222EC596B00322583 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		0455124322EC596B00322583 /* ViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
 		048A60E922EB1ADE002E3DD9 /* New2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New2VC.swift; sourceTree = "<group>"; };
 		048A60EA22EB1ADE002E3DD9 /* New2VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = New2VC.xib; sourceTree = "<group>"; };
 		04CDAA6422E85FB500A4B656 /* nib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nib.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +56,8 @@
 				048A60EA22EB1ADE002E3DD9 /* New2VC.xib */,
 				297EB1DD22EB4A5200E484FC /* ViewController.swift */,
 				297EB1DE22EB4A5200E484FC /* ViewController.xib */,
+				0455124322EC596B00322583 /* ViewController2.xib */,
+				0455124222EC596B00322583 /* ViewController2.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -145,6 +151,7 @@
 				297EB1E022EB4A5200E484FC /* ViewController.xib in Resources */,
 				04CDAA7222E85FB700A4B656 /* LaunchScreen.storyboard in Resources */,
 				04CDAA6F22E85FB700A4B656 /* Assets.xcassets in Resources */,
+				0455124522EC596B00322583 /* ViewController2.xib in Resources */,
 				048A60EC22EB1ADE002E3DD9 /* New2VC.xib in Resources */,
 				04CDAA7C22E8604100A4B656 /* newViewController.xib in Resources */,
 			);
@@ -157,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0455124422EC596B00322583 /* ViewController2.swift in Sources */,
 				048A60EB22EB1ADE002E3DD9 /* New2VC.swift in Sources */,
 				04CDAA6822E85FB500A4B656 /* AppDelegate.swift in Sources */,
 				297EB1DF22EB4A5200E484FC /* ViewController.swift in Sources */,
@@ -299,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3R3H9N6S6;
 				INFOPLIST_FILE = nib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -316,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3R3H9N6S6;
 				INFOPLIST_FILE = nib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
